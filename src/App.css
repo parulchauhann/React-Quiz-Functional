@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(71,58,141);
+}
+.title{
+  color: white;
+  margin-left: 4vw;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40vh;
+  flex-direction: column;
+}
+#play-btn{
+  background-color: rgb(10,179,6);
+  padding: .8vw;
+  width: 15vw;
+  margin-top: 1.5vw;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.quiz-comp{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Question-Box{
+  background-color: white;
+  padding: 3vw;
+  width: 80vw;
+}
+.text-center{
+  text-align: center;
+}
+.status{
+  margin: 1vw;
+}
+.options-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7vw;
+  margin: auto;
+  margin-top: 5vw;
+}
+.option{
+  width: 11vw;
+  font-size: 14px;
+  padding: 1vw;
+  border-radius: 20px;
+  width: 100%;
+  color: white;
+  background-color: rgb(30,161,241);
+}
+
+button{
+  margin-top: 3vw;
+  margin-left: 5vw;
+  width: fit-content;
+  height: 3vw;
+  padding: .3vw 2vw;
+  border: none;
+}
+#prev-btn{
+  background-color: rgb(62,126,170);
+}
+#next-btn{
+  background-color: green;
+}
+#quit-btn{
+  background-color: red;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.result{
+  background-color: white;
+  padding: 3vw;
+  width: 50vw;
+}
+
+table{
+  width: 100%;
+  margin-top: 2vw;
+  font-weight: 900;
+}
+.top-heading{
+  margin-bottom: 1vw;
+}
+td{
+  padding-top: 1vw;
+}
+.result-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20vh;
+  padding-top: 5vh;
+  flex-direction: column;
+}
+.title-prime{
+  margin-bottom: 2vw;
+}
+.text-right{
+  text-align: right;
+}
+#result-button{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+#backto-home-btn{
+  color: green;
+  border: 2px solid green;
+  cursor: pointer;
+}
+#play-again-btn{
+  color: rgb(168, 75, 255);
+  border: 2px solid rgb(168, 75, 255);
+  cursor: pointer;
+}

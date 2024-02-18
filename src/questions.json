@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "question": "Which Romantic Poet is famous for his Odes?",
+        "optionA": "John Keats",
+        "optionB": "Shelley",
+        "optionC": "William WordsWorth",
+        "optionD": "Lord Byron",
+        "answer": "John Keats"
+    },
+    {
+        "id": 1,
+        "question": "Who is the author of the play - The Importance of Being earnest?",
+        "optionA": "William Shakespeare",
+        "optionB": "John Keats",
+        "optionC": "Robert Frost",
+        "optionD": "Oscar Wilde",
+        "answer": "Oscar Wilde"
+    },
+    {
+        "id": 2,
+        "question": "Which among the follows is authored by Robert Hardy",
+        "optionA": "Far from the madding crowd",
+        "optionB": "Three men on a boat",
+        "optionC": "The Jungle Book",
+        "optionD": "The Prince",
+        "answer": "Far from the madding crowd"
+    },
+    {
+        "id": 3,
+        "question": "Plato, the greek philosopher is the student of whom?",
+        "optionA": "Sophocles",
+        "optionB": "Socrates",
+        "optionC": "Adeimantus",
+        "optionD": "Cepahlus",
+        "answer": "Socrates"
+    },
+    {
+        "id": 4,
+        "question": "Who is the greek goddess of war and wisdom?",
+        "optionA": "Thetis",
+        "optionB": "Maia",
+        "optionC": "Athena",
+        "optionD": "Hera",
+        "answer": "Athena"
+    }
+]
